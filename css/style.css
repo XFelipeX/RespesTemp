@@ -137,6 +137,10 @@ h6 {
     color:#1e0d38;
 }
 
+.main-content-middle-text .button{
+    margin-bottom: 1em;
+}
+
 .main-content-top{
     background: #1e0d38;
     color:white;
@@ -159,6 +163,90 @@ h6 {
     padding: 0 0 .5em 0;
     font-size: 3em;
 }
+
+/*conteudo principal*/
+.line-style{
+    left: 3.2em;
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 5em;
+    margin-top: 2em;
+    background: #4700b1;
+}
+
+.main-content-about .line-style{
+    background: white;
+    margin-left: 7.2em;
+}
+.main-content-middle-title{
+    padding: 1em 0;
+    color: #1e0d38;
+}
+
+.main-content-middle{
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: center;
+    background: rgb(216, 216, 216);
+    color: #1e0d38;
+}
+
+.main-content-middle-text :not(.button){
+    text-align: left;
+    padding: 0 2.4em;
+    font-size: 1.10em;
+}
+
+.main-content-middle a{
+    color:white;
+}
+
+/* Conteudo Sobre */
+.main-content-about{
+    background: #1e0d38;
+    color:white;
+    text-align: center;
+}
+
+.main-content-about p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.30em;
+}
+
+.main-content-about-title{
+    font-size: 1.70em;
+    padding: 2em 2em 1em 2em;
+    text-align: center;
+}
+
+.main-content-about-text p{
+    padding: 0 2em 6em 2em;
+    line-height: 1.5;
+}
+
+.main-content-about h4{
+    font-size: 1.50em;
+    padding: 2em 0 .5em 0;
+    border-top: 2px solid white;
+    width: 4em;
+    margin: 0 auto;
+}
+
+.main-content-about-dados{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-content-about-dados div:last-child p{
+    padding-bottom: 3em;
+}
+
+.main-content-about-dados div{
+    padding: 2em 0;
+    
+}
+
 
 /*Grid*/
 
