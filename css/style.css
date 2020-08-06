@@ -32,7 +32,7 @@ h6 {
 
 
 .main-header address{
-    height:13em;
+    height:16em;
     background: #1e0d38;
   
 }
@@ -49,13 +49,17 @@ h6 {
     padding: 0;
 }
 
-span[class^="icon"]{
+.main-header-contact span[class^="icon"]{
     float: left;
+}
+
+.main-header-contact{
+    font-size: 1.20em;
 }
 
 .main-header-top-content{
     background: rgb(54, 54, 54) url(../img/back-top.jpg);
-    height: 37em;
+    height: 40em;
     background-position: center;
     color:rgb(71, 37, 94);
 }
@@ -66,6 +70,7 @@ span[class^="icon"]{
 
 .main-header-title{
     padding: 1em 2em 0;
+    margin-bottom: 1em;
 }
 
 .main-header-nav ul{
@@ -81,9 +86,14 @@ span[class^="icon"]{
     text-decoration: none;
 }
 
+.main-header-nav a:hover{
+    color:#1e0d38;
+    transform: scale(3.0);
+}
+
 .main-header-article{
     display: block;
-    margin-top: 6em;
+    margin-top: 5em;
     background: rgba(255, 255, 255, 0.6);
 }
 
@@ -94,6 +104,16 @@ span[class^="icon"]{
 
 .main-header-article-title{
     color:rgb(44, 27, 83);
+}
+
+.main-header-social a{
+    font-size: 2em;
+    color:white;
+    text-decoration: none;
+}
+
+.main-header-social a:hover{
+    color: #6e41b1;
 }
 
 .button{
@@ -116,12 +136,35 @@ span[class^="icon"]{
     border: 2px solid #1e0d38;
     color:#1e0d38;
 }
+
+.main-content-top{
+    background: #1e0d38;
+    color:white;
+}
+
+.main-content-article{
+    font-size: 1.20em;
+    height: 16em;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+}
+
+.main-content-article{
+    padding-top: 3em;
+}
+
+.main-content-article span{
+    display: block;
+    padding: 0 0 .5em 0;
+    font-size: 3em;
+}
+
 /*Grid*/
 
 .row::after{
     content: ' ';
     display: block;
     clear: both;
-    
 }
 
