@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -26,7 +27,7 @@ h6 {
     padding: 1em 0;
     list-style: none;
     margin: 0 auto;
-    width:18em;
+    width:20em;
 }
 
 .main-header-nav ul{
@@ -42,7 +43,6 @@ h6 {
 
 .list{
     text-align: center;
-    display: block;
     margin: 0 auto;
 }
 
@@ -107,6 +107,11 @@ h6 {
 
 .main-header-article-title{
     color:rgb(44, 27, 83);
+}
+
+.main-header-social li{
+    display: inline;
+    padding: 0 1em;
 }
 
 .main-header-social a{
@@ -260,6 +265,7 @@ h6 {
 }
 
 .content-footer p{
+    margin: 0;
     padding: 0 2em 2em 2em;
     font-size: 1.4em;
     text-align: left;
@@ -292,5 +298,68 @@ h6 {
     content: ' ';
     display: block;
     clear: both;
+}
+
+
+@media screen and (min-width:46.75em){
+    .list ul:first-child li{
+        display: inline-block;
+    }
+
+    .col-1-2{
+        display: block;
+        width:47%;
+        float: left;
+        margin-left: 2%;
+        padding: 0;
+    }
+
+    .main-header ul{
+        margin: 0;
+    }
+
+    .main-header-social{
+        float: right;
+    }
+
+    .main-header address{
+        height: 12em;
+    }
+
+    .main-header-nav a{
+        color:rgb(25, 0, 94);
+    }
+
+    .main-header-nav a:hover{
+        color:rgb(252, 252, 252);
+    }
+
+    .main-header-nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10em;
+    }
+
+    .main-header-top-content{
+        height: 43em;
+    }
+
+    .main-header-nav li{
+        display: inline-block;
+    }
+
+    .line-style{
+        width: 10em;
+    }
+
+    .main-content-middle-box .line-style{
+        margin-left: 2em;
+    }
+
+    .main-content-about-text .line-style{
+        margin-left: 4em;
+    }
+
 }
 
