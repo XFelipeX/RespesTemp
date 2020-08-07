@@ -27,7 +27,10 @@ h6 {
     list-style: none;
     margin: 0 auto;
     width:18em;
-    
+}
+
+.main-header-nav ul{
+    width: 100%;
 }
 
 
@@ -180,7 +183,7 @@ h6 {
     margin-left: 7.2em;
 }
 .main-content-middle-title{
-    padding: 1em 0;
+    padding: 1.5em 0 1em 0;
     color: #1e0d38;
 }
 
@@ -224,6 +227,7 @@ h6 {
 .main-content-about-text p{
     padding: 0 2em 6em 2em;
     line-height: 1.5;
+    text-align: left;
 }
 
 .main-content-about h4{
@@ -245,6 +249,40 @@ h6 {
 .main-content-about-dados div{
     padding: 2em 0;
     
+}
+
+/*footer-content*/
+.content-footer {
+    background: rgb(216, 216, 216);;
+    text-align: center;
+    color:#1e0d38;
+    line-height: 1.5;
+}
+
+.content-footer p{
+    padding: 0 2em 2em 2em;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.content-footer span:not(.line-style){
+    color:rgb(5, 3, 77);
+    font-size: 3em;
+    padding: 1em 0 .5em 0;
+    display: inline-block;
+}
+
+.content-footer .line-style{
+    margin-left: 6.4em;
+}
+
+.content-footer-title{
+    font-size: 1.70em;
+    padding-top: 2em;
+}
+
+.content-footer-sub{
+    font-size: 1.50em;
 }
 
 
