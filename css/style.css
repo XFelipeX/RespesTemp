@@ -18,7 +18,7 @@ h6 {
 
 .main-header {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   background: #1e0d38;
 }
@@ -358,7 +358,8 @@ h6 {
   .main-header-social {
     font-size: 1.3em;
     position: relative;
-right: 2em;
+right: -2em;
+top: 3em;
   }
 
   .main-header-nav {
@@ -391,12 +392,13 @@ right: 2em;
   }
 
 
-  .main-header-nav a {
-    color: rgb(25, 0, 94);
+  .main-header-nav a {  
+    color: rgb(252, 252, 252);
+    text-shadow:3px 3px 3px black;
   }
 
   .main-header-nav a:hover {
-    color: rgb(252, 252, 252);
+    color: rgb(25, 0, 94);
   }
 
   .main-header-nav ul {
@@ -472,6 +474,11 @@ right: 2em;
     margin-left: 0.5em;
   }
 
+  .main-header-nav a{
+    color:black;
+    text-shadow: 3px 3px 3px #4700b1;
+  }
+
   .main-header-nav a:hover {
     color: rgb(0, 79, 197);
     border-top: 2px solid #6e41b1;
@@ -540,9 +547,21 @@ right: 2em;
   }
 
   .main-header .clear {
-    width: 1200px;
+    width: 1000px;
   }
 
+  .main-header{
+    font-size: 12px;
+  }
+
+  .main-header-logo{
+    top: -29em;
+right: 0em;
+  }
+
+  .main-header address{
+    height: 7em;
+  }
   .main-header address ul:first-child{
     width: 100%;
   }
@@ -550,6 +569,11 @@ right: 2em;
   .main-header address ul:first-child li{
     display: inline-block;
     margin-right: 2.5%;
+  } 
+
+  .main-header-article-text{
+    position: relative;
+    left: 14em;
   }
 
   .main-header address .col-1-2{
@@ -562,9 +586,16 @@ right: 2em;
   .main-header-social {
     position: relative;
     left: 2.50em;
+    top: 0;
   }
 
   .main-header-nav{
     left:0.80em;
   }
+
+  .main-content-middle-text{
+    position: relative;
+left: 14em;
+  }
+  
 }
