@@ -39,7 +39,7 @@ h6 {
 }
 
 .list {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
 }
 
@@ -51,15 +51,17 @@ h6 {
 
 .main-header-contact span[class^="icon"] {
   float: left;
+  padding-right: 1em;
 }
 
 .main-header-contact {
   font-size: 1.2em;
 }
 
+
 .main-header-top-content {
   background: rgb(54, 54, 54) url(../img/back-top.jpg);
-  height: 40em;
+  height: 45em;
   background-position: center;
   color: rgb(71, 37, 94);
   background-size: cover;
@@ -101,12 +103,18 @@ h6 {
 }
 
 .main-header-article p {
-  color: rgb(81, 52, 136);
+  color: #1e0d38;
   font-weight: bolder;
+  padding: 0 1em;
 }
 
 .main-header-article-title {
   color: rgb(44, 27, 83);
+  font-size: 1.3em;
+}
+
+.main-header-article-text{
+  font-size:1.2em;
 }
 
 .main-header-social li {
@@ -149,13 +157,17 @@ h6 {
   margin-bottom: 1em;
 }
 
+.main-content-middle-title{
+  font-size: 1.4em;
+}
+
 .main-content-top {
   background: #1e0d38;
   color: white;
 }
 
 .main-content-article {
-  font-size: 1.2em;
+  font-size: 1.1em;
   height: 16em;
   box-sizing: border-box;
   padding: 1em;
@@ -224,11 +236,11 @@ h6 {
 .main-content-about p {
   margin: 0;
   padding: 0;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .main-content-about-title {
-  font-size: 2em;
+  font-size: 1.4em;
   padding: 1em 2em 1em 0;
   text-align: center;
   width: 100%;
@@ -271,7 +283,7 @@ h6 {
 .content-footer p {
   margin: 0;
   padding: 0 2em 2em 2em;
-  font-size: 1.4em;
+  font-size: 1.1em;
   text-align: left;
 }
 
@@ -321,7 +333,7 @@ h6 {
   .main-content-middle-text p:not(.button),
   .main-content-about-text p,
   .content-footer p {
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
 
   .button {
@@ -399,6 +411,7 @@ top: 3em;
 
   .main-header-nav a:hover {
     color: rgb(25, 0, 94);
+    text-shadow: none;
   }
 
   .main-header-nav ul {
@@ -535,7 +548,7 @@ top: 3em;
 
   .clear {
     min-width: 940px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -554,13 +567,17 @@ top: 3em;
     font-size: 12px;
   }
 
+  .main-header-nav{
+    font-size: 1.1em;
+  }
+
   .main-header-logo{
-    top: -29em;
+    top: -31em;
 right: 0em;
   }
 
   .main-header address{
-    height: 7em;
+    height: 6em;
   }
   .main-header address ul:first-child{
     width: 100%;
@@ -573,7 +590,14 @@ right: 0em;
 
   .main-header-article-text{
     position: relative;
-    left: 14em;
+    left: 29em;
+    bottom: 2em;
+    width: 29em;
+    height: 12em;
+  }
+
+  .main-header-article p{
+    font-size: .95em;
   }
 
   .main-header address .col-1-2{
@@ -581,6 +605,10 @@ right: 0em;
   }
   .main-header address .col-1-2{
     width: 75%;
+  }
+
+  .main-header-title{
+    left:4.3em;
   }
 
   .main-header-social {
@@ -593,9 +621,57 @@ right: 0em;
     left:0.80em;
   }
 
-  .main-content-middle-text{
-    position: relative;
-left: 14em;
+  .main-header-contact, .main-header-social a{
+    font-size:1.38em;
   }
-  
+
+  .float{
+    position: relative;
+    bottom:3em ;
+    background: rgb(216, 216, 216);
+    color:black;
+    border-radius: 1em;
+  }
+
+  .float span{
+    color: #1e0d38;
+  }
+
+  .float h2{
+    color:#1e0d38;
+  }
+
+  .float p{
+    color:#140b20;
+  }
+
+  .content-footer p{
+    margin-top: 1em;
+  }
+
+  .main-header-contact span[class^="icon"] {
+    padding-right: 0;
+  }
+
+  /* FONTES*/
+  .main-content-article p{
+    font-size: 1.2em;
+  }
+
+  /* GRID */
+  .row{
+    margin: 0 auto;
+    width:1000px;
+  }
+  .col-1-3{
+    height: 100%;
+    width:32%;
+    float: left;
+    margin: 0 1% 0 0;
+  }
+
+  .col-1-4{
+    margin-left: 1.5%;
+  }
+
 }
